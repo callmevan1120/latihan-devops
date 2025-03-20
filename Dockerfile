@@ -1,5 +1,5 @@
 #Image nginx
-FROM nginx:alphine
+FROM nginx:alpine
 
 #Salin file HTML Anda ke dalam direktori yang digunakan
 COPY . /usr/share/nginx/html
